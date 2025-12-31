@@ -1,12 +1,3 @@
-(() => {
-  const year = document.getElementById("year");
-  if (year) year.textContent = String(new Date().getFullYear());
+// Intentionally minimal. Keep for future enhancements or analytics hooks.
+// Example: wire the CTA to a calendaring link instead of mailto.
 
-  const btn = document.getElementById("ctaButton");
-  const out = document.getElementById("ctaResult");
-  if (btn && out) {
-    btn.addEventListener("click", () => {
-      out.textContent = "Lovely choice. Now tailor the words and colors to your story.";
-    });
-  }
-})();
